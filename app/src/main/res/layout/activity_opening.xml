@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".opening">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_ket"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        style="@style/text_utama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Nomor Telepon Anda"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="8dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_icon_phone" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/warna_abu"
+            android:hint="Nomor Telepon"
+            android:inputType="number"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/tombol_merah"
+        android:text="Masuk"
+        android:textColor="@color/warna_putih"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        style="@style/text_utama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bantuan? Hubungi Kami"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        style="@style/text_utama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belum memiliki akun?"
+        android:layout_marginTop="60dp"
+        />
+
+    <Button
+        android:background="@drawable/tombol_abu"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Daftar"
+        android:textColor="@color/warna_putih"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
